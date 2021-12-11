@@ -1,0 +1,153 @@
+body {
+  font-family: georgia, times, serif;
+  color: #333;
+  font-size: 1.2rem;
+  line-height: 1.6em;
+  margin: 0;
+}
+
+h1{
+  font-size: 2rem;
+  line-height: 1.3em;
+}
+
+h2{
+  font-size: 1.3rem;
+  line-height: 1em;
+}
+
+p{
+  margin-bottom: 1.6em;
+}
+
+.container {
+  width: 85%;
+  max-width: 85%;
+  margin: 0 auto;
+}
+
+.intro{
+  align-content: center;
+  vertical-align: center;
+  height: 200px;
+  margin: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.intro img{
+  width: 230px;
+  height: 200px;
+  margin-right: 20px;
+  float: left;
+}
+
+.header{
+  background: #333;
+  color: white;
+  padding: 2rem 0;
+
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+  .header a{
+    color: white;
+    text-decoration: none;
+  }
+
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 1.3em;
+}
+
+.menu-icon{
+  display: none;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+  .navigation ul li {
+    display: inline-block;
+  }
+
+    .navigation ul li a {
+      display: block;
+      padding: 0.5rem 1rem;
+      transition: all 0.4s linear;
+      border-radius: 5px;
+    }
+
+      .navigation ul li a:hover {
+        background: #4a4a4a;
+      }
+
+.main-content{
+  margin-top: 12rem;
+}
+
+.nav-pagina{
+  max-width: 100%;
+  background: #333;
+  color: white;
+  padding: 1em 0;
+  justify-content: space-between;
+}
+
+.nav-pagina ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: #333;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-pagina li {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+}
+.nav-pagina li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  transition: all 0.4s linear;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-pagina li a:hover {
+  background: #4a4a4a;
+}
+
+
+
+iframe{
+
+  max-width: 85%;
+  height: 450px;
+}
+
+.footer {
+  max-width: 100%;
+  background: #666;
+  padding: 4rem 0;
+  text-align: center;
+  margin-top: 6rem;
+  color: white;
+}
+
